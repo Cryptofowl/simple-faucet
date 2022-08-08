@@ -3,14 +3,14 @@ $(document).ready(function() {
 	//////////////////////////////////////////////////////////////////////////////
 	////     INSERT YOUR NODE RPC URL, NETWORK ID AND GAS PRICE HERE        //////
 	//////////////////////////////////////////////////////////////////////////////
-	var rpcURL = "http://your-fancy-node-url:8545";
-	var networkID = 12345;
+	var rpcURL = "https://goerli.infura.io/v3/6058365d50304322b5797e7cb25b996f";
+	var networkID = 5;
 	var minGasPrice = 0;
 	//////////////////////////////////////////////////////////////////////////////
 	////     INSERT THE TOKEN AND FAUCET ADDRESS HERE                       //////
 	//////////////////////////////////////////////////////////////////////////////
-	var token_address = '0x0000000000000000000000000000000000000000';
-	var faucet_address = '0x0000000000000000000000000000000000000000';
+	var token_address = '0x9912c3a813B3e4a5869C83C36D2BB37f140d1410';
+	var faucet_address = '0x021B874Ec5b6a87896D7AFC2bac46020c68470E7';
 	//////////////////////////////////////////////////////////////////////////////
 
 	var account;
